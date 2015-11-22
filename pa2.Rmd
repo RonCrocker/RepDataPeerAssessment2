@@ -1,0 +1,70 @@
+---
+title: Understanding Deleterious Effects of Storms using the NOAA Storm Data
+author: Submitted for Coursera **Reproducable Research Peer Assessment 2**
+date: 2015 NOV 22
+output: 
+  html_document:
+    keep_md: true
+---
+## Synopsis
+
+A study was performed using the exploring the U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database that includes data about major storms and interesting weather, particularly when and where they occurred and estimates of fatalities, injuries, and property damaage. The goal of the study was to understand the which types of weather events are the most harmful to people and the types of weather events that have the greatest economic impact. The study determined that the most harmful event to people is X and the event that causes the most economic harm is Y. Details are provided below.
+
+## Data Processing 
+There should be a section titled Data Processing which describes (in words and code) how the data were loaded into R and processed for analysis. In particular, your analysis must start from the raw CSV file containing the data. You cannot do any preprocessing outside the document. If preprocessing is time-consuming you may consider using the cache = TRUE option for certain code chunks.
+
+## Results
+There should be a section titled Results in which your results are presented.
+
+You may have other sections in your analysis, but Data Processing and Results are required.
+
+The analysis document must have at least one figure containing a plot.
+## Assignment
+
+The basic goal of this assignment is to explore the NOAA Storm Database and answer some basic questions about severe weather events. You must use the database to answer the questions below and show the code for your entire analysis. Your analysis can consist of tables, figures, or other summaries. You may use any R package you want to support your analysis.
+
+## Questions
+
+
+Consider writing your report as if it were to be read by a government or municipal manager who might be responsible for preparing for severe weather events and will need to prioritize resources for different types of events. However, there is no need to make any specific recommendations in your report.
+
+
+## Data Analysis
+
+Your data analysis must address the following questions:
+
+* Across the United States, which types of events (as indicated in the EVTYPE variable) are most harmful with respect to population health?
+
+* Across the United States, which types of events have the greatest economic consequences?
+
+Your data analysis must address the following questions:
+
+### Harmful Events
+
+#### with Respect to Population Health
+
+Across the United States, which types of events (as indicated in the EVTYPE variable) are most harmful with respect to population health?
+
+#### with Respect to Economic Consequences
+
+Across the United States, which types of events have the greatest economic consequences?
+
+Consider writing your report as if it were to be read by a government or municipal manager who might be responsible for preparing for severe weather events and will need to prioritize resources for different types of events. However, there is no need to make any specific recommendations in your report.
+
+## Summary
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
