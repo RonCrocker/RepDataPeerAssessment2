@@ -1,0 +1,7 @@
+name: Publish Document
+account: rpubs
+server: rpubs.com
+bundleId:
+        https://api.rpubs.com/api/v1/document/130490/eb20b0979a924d7c8371d2ff235fac2c
+url: http://rpubs.com/CubsFanRon/130490/edit
+when: 1448238637.36013
